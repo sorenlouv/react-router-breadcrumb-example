@@ -1,0 +1,20 @@
+{
+    "parserOptions": {
+      "ecmaVersion": 6
+    },
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "plugins": ["prettier"],
+    "rules": {
+      "prettier/prettier": [
+        "error",
+        {
+          "singleQuote": true,
+          "semi": true
+        }
+      ]
+    },
+    "extends": ["eslint:recommended", "prettier", "prettier/react"]
+  }
